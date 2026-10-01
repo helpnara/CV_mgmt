@@ -3,7 +3,7 @@
 > 전제: 기록·구조화는 앱 내 AI, 활용은 **커리어 컨텍스트 파일 내보내기**(사용자가 본인의 생성형 AI에 참고 문서로 첨부)
 > 앱 내 경력기술서 생성과 PDF 출력은 MVP에서 제외하고, 사용 데이터를 본 뒤 재검토한다.
 > 관련 문서: `docs/01_PRODUCT_CONCEPT.md`, `docs/review/01_PRODUCT_CONCEPT_REVIEW.md` (특히 F절)
-> 작성일: 2026-10-01
+> 작성일: 2026-10-01 / 2026-10-02 개정: 플랫폼이 웹으로 변경됨(D-006). 6절은 "느린 나이테" 스택 추출 결과를 받은 뒤 다시 쓴다.
 
 ---
 
@@ -141,7 +141,9 @@ anonymized: true | false
 
 ---
 
-## 6. iOS 개발 환경
+## 6. 개발 환경 (개정 예정: iOS → 웹, D-006)
+
+> 아래 iOS 항목은 참고용으로 남긴다. "느린 나이테" 프로젝트 프로파일(`docs/prompts/extract_project_profile.md`로 추출)을 받은 뒤 웹 기준으로 교체한다. 웹 전환으로 바뀌는 큰 항목: Apple Developer·CloudKit·App Attest 불필요, 로그인과 서버 측 DB 또는 브라우저 저장소 선택, 공유 시트 대신 파일 다운로드·클립보드, PWA 오프라인 여부, Web Speech API.
 
 - [ ] **영문 프로젝트명 결정** (번들 ID, 저장소, 파일 형식 이름에 필요. 01 문서 1.1에서 미정)
 - [ ] Apple Developer Program 등록 (연간), App Store Connect 앱 등록
