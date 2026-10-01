@@ -60,7 +60,7 @@
 
 ```markdown
 ---
-format: slow-path-career-context
+format: slow-way-career-context
 version: 0.1
 exported_at: 2026-10-01
 owner: (이름 또는 익명)
