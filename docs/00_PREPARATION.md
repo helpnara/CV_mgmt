@@ -45,7 +45,7 @@
 
 ### 산출물
 
-- 검증된 컨텍스트 파일 형식 v0.1 → 초안: `docs/spec/context_file_v0.1.md` (2026-11-01)
+- 검증된 컨텍스트 파일 형식 v0.1 → 초안: `docs/spec/context_file.md` (2026-11-01)
 - 검증된 목적별 프롬프트 3개 → 초안: `docs/prompts/use_context_file.md`
 - 구조화 프롬프트 2개 → 초안: `docs/prompts/structure_entry.md`, `docs/prompts/decompose_cv.md`
 - 서비스별 첨부 호환성 표 → 실험 기록 4.3절
