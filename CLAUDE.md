@@ -32,7 +32,8 @@
 
 새 세션이나 다른 계정에서 이어받을 때 먼저 읽는다.
 
-- **작업 브랜치**: `claude/neurin-gil-requirements-review-ynxigv`. 모든 문서가 여기 있다. 새 세션이 다른 브랜치를 만들었으면 이 브랜치에서 이어서 만든다
+- **기준 브랜치**: `main`. 새 세션은 `main`에서 시작하고, 작업이 끝나면 `main`에 반영한다. 세션이 자기 이름의 작업 브랜치(`claude/…`)를 만들었으면 `main`에서 갈라 쓴다
+- **예전 작업 브랜치**: `claude/neurin-gil-requirements-review-ynxigv`는 2026-11-07까지의 기획 작업 브랜치이며 `main`과 같은 지점에서 멈춘다. 새 작업은 여기에 쌓지 않는다
 - **현재 단계**: 기획 문서 완료. 다음은 `docs/08_ROADMAP.md` §2의 **M0 묶음 A**(0 골격 복사, 1 가상 시험 자료, 2 파서)
 - **골격 출처**: 공개 저장소 `helpnara/md_mgmt_tool`, 커밋 `a23bd75`. 무엇을 가져오고 버릴지는 `docs/05_TECHNICAL_DESIGN.md` §2
 - **읽는 순서**: `docs/DECISIONS.md` → `docs/02_REQUIREMENTS.md` §1 → `docs/08_ROADMAP.md` → 작업할 단계의 관련 문서
