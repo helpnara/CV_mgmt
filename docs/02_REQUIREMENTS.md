@@ -1,7 +1,7 @@
 # 느린 길 - 요구사항
 
-> Version: 0.1 (초안)
-> 작성일: 2026-11-01
+> Version: 0.1 (**기준선**, D-013. 사용하면서 개정)
+> 작성일: 2026-11-01 / 기준선 확정: 2026-11-07
 > 선행 문서: `01_PRODUCT_CONCEPT.md`(v0.1, iOS 전제 원안), `docs/review/01_PRODUCT_CONCEPT_REVIEW.md`(A~F절), `00_PREPARATION.md`, `DECISIONS.md`(D-001~D-012), `04_DATA_MODEL.md`(v0.1), `docs/spec/context_file.md`(v0.2), `docs/experiments/01_context_file_validation.md`(R-01~R-10), `docs/reference/neurin-naite-profile.md`
 > 이 문서는 "무엇을 만들 것인가"를 번호 붙은 요구사항으로 고정한다. 화면의 생김새는 03_UX_SPEC, 구현은 05_TECHNICAL_DESIGN, 프롬프트와 파서는 06_AI_DESIGN, 내보내기 파일은 07_EXPORT_DESIGN이 맡는다.
 > 표기: `FR-xx` 기능, `NFR-xx` 비기능. 우선순위는 **M0**(MVP-0, 첫 배포본), **M1**(MVP-1, 베타 후), **M2**(이후), **X**(제외).

@@ -1,7 +1,7 @@
 # 느린 길 - 데이터 모델
 
-> Version: 0.1 (초안)
-> 작성일: 2026-11-01
+> Version: 0.1 (**기준선**, D-013. 사용하면서 개정)
+> 작성일: 2026-11-01 / 기준선 확정: 2026-11-07
 > 선행 문서: `01_PRODUCT_CONCEPT.md` 5장(원형), `docs/spec/context_file.md`(직렬화 결과), `docs/experiments/01_context_file_validation.md`(근거), `DECISIONS.md` D-006·D-008·D-010·D-011·D-012
 > 이 문서가 정한 것을 02_REQUIREMENTS, 03_UX_SPEC, 05_TECHNICAL_DESIGN이 따른다. 컨텍스트 파일(spec)은 이 모델의 직렬화이므로 모델이 바뀌면 spec도 바뀐다.
 
