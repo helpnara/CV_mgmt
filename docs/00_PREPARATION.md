@@ -200,10 +200,10 @@ D-008에 따라 **중계 서버, AI 제공자 계정, 사용량 제한, 결제 �
 | 01 | PRODUCT_CONCEPT | v0.2로 개정: 산출물을 컨텍스트 파일로, MVP 범위 축소, 결정 사항 반영 |
 | 02 | REQUIREMENTS | 온보딩(과거 경력 불러오기), 백업·내보내기, 비기능 요구사항 추가 → **v0.1 초안 작성 (2026-11-01)** |
 | 04 | DATA_MODEL | **03보다 먼저 작성** → **v0.1 초안 작성 (2026-11-01)** |
-| 03 | UX_SPEC | Documents 화면을 내보내기 화면으로. 화면 9개, 1093px |
+| 03 | UX_SPEC | Documents 화면을 내보내기 화면으로. 화면 9개, 1093px → **v0.1 초안 (2026-11-07)**, 첫 실행 포함 10개 |
 | 05 | TECHNICAL_DESIGN | ~~얇은 중계 서버, CloudKit~~ 느린 나이테 골격 재사용 범위, API 끝점, 파서·내보내기 모듈, 시험 |
 | 06 | AI_DESIGN | ~~구조화 스키마~~ 프롬프트 3종, 응답 형식, 파서, 골든 세트. 대부분 `docs/spec`·`docs/prompts`에 이미 있음 |
-| 07 | EXPORT_DESIGN | PDF_DESIGN 대체. 내보내기 기능 설계 (형식 자체는 `docs/spec/context_file.md`) |
+| 07 | EXPORT_DESIGN | PDF_DESIGN 대체. 내보내기 기능 설계 (형식 자체는 `docs/spec/context_file.md`) → **v0.1 초안 (2026-11-07)** |
 | 08 | ROADMAP | M0/M1/M2 (02 §6) |
 
 01 PRODUCT_CONCEPT v0.2 개정은 하지 않는다. 01은 원안으로 남기고, 달라진 전제는 02 §1 전제 표와 DECISIONS가 대신한다.
