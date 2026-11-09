@@ -1,7 +1,7 @@
 # 느린 나이테 연동 방향 검토
 
 > 작성일: 2026-11-09
-> 상태: 검토안 (결정 전). 결정하면 `DECISIONS.md`에 번호로 남긴다
+> 상태: **대체됨 (2026-11-09)** — 최종 목표(D-015)가 정해져 `04_DIRECTION_REVIEW.md`로 대체. 필드 대응(3.3)과 겹치는 기능(4절) 조사는 참고로 유효
 > 전제: 아이폰 앱은 보류하고 로컬 웹(D-006)으로 개발한다 (사용자, 2026-11-09. `02_PLATFORM_REVIEW.md`)
 > 근거: `reference/neurin-naite-profile.md`, `05_TECHNICAL_DESIGN.md` §2·§9, 느린 나이테 저장소(`helpnara/md_mgmt_tool`)의 `a23bd75`와 최신 `c0c76ed` 코드·TODO 237~247
 
